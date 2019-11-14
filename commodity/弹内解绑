@@ -1,1 +1,49 @@
-<mxfile host="www.draw.io" modified="2019-11-14T08:11:50.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" version="12.2.6" etag="VQiC3sSulS9wH9wSgKcv" type="github" pages="1"><diagram id="VjNHCOUB9lDLI5DFR-iD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-14T08:20:02.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="7fcgEIotK_Cwdq0fWSxw" version="12.2.6" type="github" pages="1">
+  <diagram id="VjNHCOUB9lDLI5DFR-iD" name="Page-1">
+    <mxGraphModel dx="1106" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="jTi3yad9hMRbbyBB6_tR-1" target="jTi3yad9hMRbbyBB6_tR-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-1" value="解绑&lt;br style=&quot;font-size: 14px;&quot;&gt;oldSeller/storeId" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="jTi3yad9hMRbbyBB6_tR-2" target="jTi3yad9hMRbbyBB6_tR-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-2" value="取store下所有商品&lt;br style=&quot;font-size: 14px;&quot;&gt;组成barcode:item对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="jTi3yad9hMRbbyBB6_tR-3" target="jTi3yad9hMRbbyBB6_tR-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-3" value="&lt;span&gt;前置处理不合规的&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;item&lt;/span&gt;&lt;span&gt;(如&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;spu&lt;/span&gt;&lt;span&gt;禁用,处罚态，商家产品状态)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="225" y="600" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="jTi3yad9hMRbbyBB6_tR-5" target="jTi3yad9hMRbbyBB6_tR-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-5" value="&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;剔除换解绑成功的(可能重复换解绑),以及获取待解绑&lt;/span&gt;&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;所有barcode&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="225" y="692" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="jTi3yad9hMRbbyBB6_tR-7" target="jTi3yad9hMRbbyBB6_tR-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-7" value="&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;删除原散店码冲突的&lt;/span&gt;&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;商家产品&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="225" y="790" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="jTi3yad9hMRbbyBB6_tR-9" target="jTi3yad9hMRbbyBB6_tR-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-9" value="&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px; color: rgb(38, 38, 38); line-height: 24px; letter-spacing: 0.05em; outline-style: none; overflow-wrap: break-word;&quot;&gt;新增商家产品&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="225" y="880" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="jTi3yad9hMRbbyBB6_tR-11" value="&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;将itemid&lt;/span&gt;&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;的&lt;/span&gt;&lt;span style=&quot;color: rgb(20, 23, 28); font-size: 14px;&quot;&gt;商家产品id换为新增的商家产品id&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="225" y="981" width="190" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
